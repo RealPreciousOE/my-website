@@ -37,100 +37,103 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
- nav a:hover {
-    background-color: #528deb;
-    padding: 5px;
-    border-radius: 5px;
-   transition: border-bottom ease;
- }
+nav a:hover {
+  background-color: #528deb;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
 
- /* NAVBAR ITEMS ENDS */
+ nav a:active {
+  transform: scale(0.95);
+}
 
- button {
-    cursor: pointer;
- }
+/* NAVBAR ITEMS ENDS */
 
+button {
+  cursor: pointer;
+}
 
 .name {
-    color: #528deb;
-   letter-spacing: 2px;
-   font-weight: bold;
-   font-size: 1.5rem;
+  color: #528deb;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
- /* HERO SECTION */
+/* HERO SECTION */
 
- .heroBox {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #1d3c6e;
-    color: white
- }
+.heroBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1d3c6e;
+  color: white;
+}
 
- #img {
-    width: 380px;
-    height: 380px;
-    border-radius: 5%;
-    padding: 10px;
-      border: 1px solid #528deb;
- }
+#img {
+  width: 380px;
+  height: 380px;
+  border-radius: 5%;
+  padding: 10px;
+  border: 1px solid #528deb;
+}
 
- #img:hover {
-    background-color: #528deb;
-    transition: background-color 0.5s ease
- }
+#img:hover {
+  background-color: #528deb;
+  transition: background-color 0.5s ease;
+}
 
- .greet {
-    padding: 10px;
-    color: black;
-    background-color: white;
-    width: fit-content;
-    border-radius: 10px;
-    font-weight: bold;
- }
+.greet {
+  padding: 10px;
+  color: black;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  font-weight: bold;
+}
 
- #userName {
-    font-size: 2.4rem;
-    font-weight: bold;
-    margin-top: 7px;
-    letter-spacing: 2px;
- }
+#userName {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 7px;
+  letter-spacing: 2px;
+}
 
- #title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #528deb;
- }
+#title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #528deb;
+}
 
- .intro {
-    font-size: 1.1rem;
- }
+.intro {
+  font-size: 1.2rem;
+}
 
- .project_contact {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
- }
+.project_contact {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
 
- #projectBtn {
-    padding: 15px;
-    border-radius: 5px;
-    width: 40%;
-    border: 1px solid #528deb;
-    background-color: #528deb;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: background-color 0.5s ease;
+#projectBtn {
+  padding: 15px;
+  border-radius: 5px;
+  width: 40%;
+  border: 1px solid #528deb;
+  background-color: #528deb;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.5s ease;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
- }
+}
 
- #projectBtn:active {
+#projectBtn:active {
   transform: scale(0.95);
 }
 
@@ -138,21 +141,21 @@ nav a {
   opacity: 0.9;
 }
 
- #contactBtn {
-    padding: 15px;
-    border-radius: 5px;
-    width: 40%;
-    border: 1px solid #528deb;
-    background-color: #1d3c6e;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-     transition: background-color 0.5s ease;
+#contactBtn {
+  padding: 15px;
+  border-radius: 5px;
+  width: 40%;
+  border: 1px solid #528deb;
+  background-color: #1d3c6e;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.5s ease;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
- }
+}
 
- #contactBtn:active {
+#contactBtn:active {
   transform: scale(0.95);
 }
 
@@ -161,105 +164,113 @@ nav a {
   background-color: #528deb;
 }
 
- .heroText {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
- }
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
- /* HERO SECTION DONE */
+/* HERO SECTION DONE */
 
- /* ABOUT ME */
- .about_and_skills {
- padding: 20px 20px 10px;
- }
+/* ABOUT ME */
+.about_and_skills {
+  padding: 20px 20px 10px;
+}
 
- .aboutMe {
-    display: flex;
-    align-items: center;
-    gap: 10px;
- }
+.aboutMe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
- .icons {
-    font-size: 2.5rem !important;
-    color: #528deb;
-    font-weight: bold;
-    border-radius: 50%;
- }
+.icons {
+  font-size: 2.5rem !important;
+  color: #528deb;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+}
 
- .aboutMe_skillsText {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-top: 10px;
- }
+.aboutMe_skillsText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
 
- .space {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-     gap: 5px;
- }
+.space {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 
- .text {
-    font-size: 1.2rem;
- }
+.text {
+  font-size: 1.2rem;
+}
 
- /* MY SKILLS */
+/* MY SKILLS */
 
- .mySkills {
-    display: flex;
-    align-items: center;
-    gap: 10px;
- }
+.mySkills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
- .techSkills {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-   border-radius: 5px;
-   border: 1px solid #dedede;
-    width: fit-content;
-     font-size: 1.2rem;
- }
+.techSkills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  width: fit-content;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+}
 
- .techStack {
-    display: flex;
-    gap: 20px;
-    margin-top: 10px;
- }
+.techSkills:hover {
+  background-color: #528deb;
+  color: white;
+  transition: background-color 0.5s ease;
+}
 
- .frontendText {
-    margin-top: 10px;
- }
+.techStack {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
 
- .about_and_skills {
-    display: flex;
-    justify-content: space-between;
- }
+.frontendText {
+  margin-top: 10px;
+}
 
- .aboutColumn, .skillsColumn {
-    width: 50%;
- }
+.about_and_skills {
+  display: flex;
+  justify-content: space-between;
+}
 
- /* Education */
+.aboutColumn,
+.skillsColumn {
+  width: 50%;
+}
 
- .edu_and_cert {
-    padding: 20px 20px 10px ;
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
- }
+/* Education */
 
- .eduCation {
-    display: flex;
-    align-items: center;
-    gap: 10px;
- }
+.edu_and_cert {
+  padding: 20px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
 
+.eduCation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
- .timeline {
+.timeline {
   position: relative;
   margin-left: 20px;
   padding-left: 40px;
@@ -290,57 +301,60 @@ nav a {
 }
 
 .content .uni_college {
-    margin-top: 10px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
- .blue {
-    color: #528deb;
- }
+.blue {
+  color: #528deb;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
- .description {
-    font-size: 1.1rem;
- }
+.description {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 10px;
+}
 
- .certificate {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding-left: 20px;
- }
+.certificate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
 
- .certBox {
-    width: fit-content;
-    height: fit-content;
-    /* border: 1px solid #528deb; */
-     /* padding: 10px; */
-      border-radius: 5%;
- }
+.certBox {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5%;
+}
 
- #percorsoTech {
-     width: 300px;
-    height: 300px;
-   padding: 20px;
- }
+#percorsoTech {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
- .eduColumn, .certColumn {
-    width: 50%;
- }
+.eduColumn,
+.certColumn {
+  width: 50%;
+}
 
- .frontendCert {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-top: 10px;
- }
+.frontendCert {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+  margin-top: 5px;
+}
 
- .certDescription {
-    width: 100%;
-     font-size: 1.2rem;
- }
+.certDescription {
+  width: 100%;
+  font-size: 1.2rem;
+}
 
- .certColumn {
-    width: 100%;
- }
-
- 
+.certColumn {
+  width: 100%;
+}
