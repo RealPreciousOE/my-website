@@ -60,3 +60,111 @@ nav a {
    font-weight: bold;
    font-size: 1.5rem;
 }
+
+ /* HERO SECTION */
+
+ .heroBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #1d3c6e;
+    color: white
+ }
+
+ #img {
+    width: 380px;
+    height: 380px;
+    border-radius: 5%;
+    padding: 10px;
+      border: 1px solid #528deb;
+ }
+
+ #img:hover {
+    background-color: #528deb;
+    transition: background-color 0.5s ease
+ }
+
+ .greet {
+    padding: 10px;
+    color: black;
+    background-color: white;
+    width: fit-content;
+    border-radius: 10px;
+    font-weight: bold;
+ }
+
+ #userName {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 7px;
+    letter-spacing: 2px;
+ }
+
+ #title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #528deb;
+ }
+
+ .intro {
+    font-size: 1.1rem;
+ }
+
+ .project_contact {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+ }
+
+ #projectBtn {
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid #528deb;
+    background-color: #528deb;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.5s ease;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+ }
+
+ #projectBtn:active {
+  transform: scale(0.95);
+}
+
+#projectBtn:hover {
+  opacity: 0.9;
+}
+
+ #contactBtn {
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+    border: 1px solid #528deb;
+    background-color: #1d3c6e;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+     transition: background-color 0.5s ease;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+ }
+
+ #contactBtn:active {
+  transform: scale(0.95);
+}
+
+#contactBtn:hover {
+  opacity: 0.9;
+  background-color: #528deb;
+}
+
+ .heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ /* HERO SECTION DONE */
