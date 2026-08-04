@@ -171,7 +171,7 @@ nav a {
 
  /* ABOUT ME */
  .about_and_skills {
-   padding: 20px;
+ padding: 20px 20px 10px;
  }
 
  .aboutMe {
@@ -221,6 +221,7 @@ nav a {
    border-radius: 5px;
    border: 1px solid #dedede;
     width: fit-content;
+     font-size: 1.2rem;
  }
 
  .techStack {
@@ -242,5 +243,104 @@ nav a {
     width: 50%;
  }
 
+ /* Education */
+
+ .edu_and_cert {
+    padding: 20px 20px 10px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+ }
+
+ .eduCation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+
+ .timeline {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #528deb;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #528deb;
+}
+
+.content .uni_college {
+    margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+ .blue {
+    color: #528deb;
+ }
+
+ .description {
+    font-size: 1.1rem;
+ }
+
+ .certificate {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+ }
+
+ .certBox {
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid #528deb; */
+     /* padding: 10px; */
+      border-radius: 5%;
+ }
+
+ #percorsoTech {
+     width: 300px;
+    height: 300px;
+   padding: 20px;
+ }
+
+ .eduColumn, .certColumn {
+    width: 50%;
+ }
+
+ .frontendCert {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+ }
+
+ .certDescription {
+    width: 100%;
+     font-size: 1.2rem;
+ }
+
+ .certColumn {
+    width: 100%;
+ }
 
  
