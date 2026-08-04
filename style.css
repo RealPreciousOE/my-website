@@ -66,7 +66,7 @@ nav a {
  .heroBox {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
     background-color: #1d3c6e;
     color: white
  }
@@ -94,7 +94,7 @@ nav a {
  }
 
  #userName {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-top: 7px;
     letter-spacing: 2px;
@@ -168,3 +168,79 @@ nav a {
  }
 
  /* HERO SECTION DONE */
+
+ /* ABOUT ME */
+ .about_and_skills {
+   padding: 20px;
+ }
+
+ .aboutMe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .icons {
+    font-size: 2.5rem !important;
+    color: #528deb;
+    font-weight: bold;
+    border-radius: 50%;
+ }
+
+ .aboutMe_skillsText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+ }
+
+ .space {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+     gap: 5px;
+ }
+
+ .text {
+    font-size: 1.2rem;
+ }
+
+ /* MY SKILLS */
+
+ .mySkills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .techSkills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #dedede;
+    width: fit-content;
+ }
+
+ .techStack {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+ }
+
+ .frontendText {
+    margin-top: 10px;
+ }
+
+ .about_and_skills {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .aboutColumn, .skillsColumn {
+    width: 50%;
+ }
+
+
+ 
