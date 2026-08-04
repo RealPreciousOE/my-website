@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR ITEMS!! */
+
+.nav_Link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d3c6e;
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+ nav a:hover {
+    border-bottom: 2px solid #528deb;
+   padding: 8px;
+   transition: border-bottom ease;
+ }
+
+.name {
+  margin: 0;
+  padding: 0;
+}
