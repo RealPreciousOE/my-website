@@ -530,3 +530,270 @@ button {
 .back-to-top:active {
   transform: scale(0.95);
 }
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 789px) {
+  .heroBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_and_skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .edu_and_cert {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about_and_skills {
+    width: 100%;
+  }
+
+  .eduColumn {
+    width: 100%;
+  }
+
+  .certificate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .frontendCert {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+ .certBox {
+  display: flex;
+  align-items: center;
+ }
+
+ .hero_Image {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+ }
+
+  
+
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .projectBox {
+    width: 50%;
+    margin-top: 10px;
+  }
+
+ .projectImages {
+  width: 100%;
+ }
+
+  .aboutColumn {
+    width: 100%;
+  }
+
+
+  .projectFlex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about_and_skills{
+    width: 100%;
+  }
+
+  .aboutMe_skillsText {
+    width: 100%;
+  }
+
+  .navItems {
+  gap: 10px;
+}
+
+ .nav_Link {
+  min-height: 5vh;
+ }
+
+nav a {
+  font-size: 0.9rem;
+   display: none;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.certDescription {
+  font-size: 1.2rem;
+}
+
+.techText {
+  font-size: 1.2rem;
+}
+
+.projectDescription {
+  font-size: 1.2rem;
+}
+
+.contactsubText {
+  font-size: 1.2rem;
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+#img {
+  width: 100%;
+  height: 900px;
+  /* margin-left: 20px; */
+}
+
+.project_contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+  * {
+    border: 1px solid red;
+  }
+}
+
+@media only screen and (min-width: 390px)and (max-width: 600px) {
+  
+ .edu_and_cert {
+  width: 100%;
+ }
+
+ .eduColumn {
+  width: 100%;
+ }
+
+ .timeline {
+  padding-left: 20px;
+  margin: 0;
+ }
+
+ .projectBox {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .projectImages {
+  width: 100%;
+ }
+
+ #percorsoTech {
+  width: 340px;
+  height: 340px;
+}
+
+ .about_and_skills {
+  width: 100%;
+ }
+
+ .aboutColumn {
+  width: 100%;
+ }
+
+ .techStack {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+ }
+
+ .mySkills {
+  margin-top: 20px;
+  width: 100%;
+ }
+
+ .skillsColumn {
+  width: 100%;
+ }
+
+ .uni_college {
+  
+ }
+
+ #img {
+  width: 340px;
+  height: 340px;
+  margin-top: 15px;
+ }
+
+ #projectBtn {
+  padding: 10px;
+  text-align: center;
+ }
+
+ .heroBox {
+  display: flex;
+  gap: 5px;
+ }
+
+ #title {
+  font-size: 1.2rem;
+ }
+
+ .text {
+  font-size: 0.9rem;
+ }
+
+ .space {
+  margin-top: 10px;
+ }
+
+ /* .description {
+  font-size: 1rem;
+ }
+
+ .certDescription {
+  font-size: 1rem;
+ } */
+
+ p {
+  font-size: 1rem;
+ }
+
+ #projectBtn {
+  font-size: 0.9rem;
+  height: fit-content;
+  margin: 0;
+ }
+
+ #contactBtn {
+  font-size: 0.9rem;
+ padding: 10px;
+ height: fit-content;
+ }
+
+ .project_contact {
+  margin: 0;
+  margin-top: 10px;
+ }
+
+ .navItems {
+  gap: 10px;
+}
+
+nav a {
+  font-size: 0.9rem;
+}
+
+ 
+
+}
