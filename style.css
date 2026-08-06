@@ -47,7 +47,7 @@ nav a:hover {
   transition: background-color 0.5s ease;
 }
 
- nav a:active {
+nav a:active {
   transform: scale(0.95);
 }
 
@@ -369,85 +369,164 @@ button {
   width: 100%;
 }
 
- /* PROJECTS!!! */
+/* PROJECTS!!! */
 
- .prjectText {
-   margin-top: 20px;
-   text-align: center;
- }
+.prjectText {
+  margin-top: 20px;
+  text-align: center;
+}
 
- .projectImages {
-   width: 250px;
-   height: 250px;
-    cursor: pointer;
- }
+.projectImages {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+}
 
- .projectFlex {
-   display: flex;
-   justify-content: space-evenly;
-   gap: 20px;
- }
+.projectFlex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
 
- .projectBox {
-   padding: 10px;
-   width: fit-content;
-   height: auto;
-   margin-top: 20px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
-    border-radius: 5px;
- }
+.projectBox {
+  padding: 10px;
+  width: fit-content;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+}
 
- .projectBox:hover {
-   background-color: #528deb;
-   transition: background-color 0.5s ease;
-   color: white;
- }
+.projectBox:hover {
+  background-color: #528deb;
+  transition: background-color 0.5s ease;
+  color: white;
+}
 
- .projectBox:active {
-   transform: scale(0.98);
- }
+.projectBox:active {
+  transform: scale(0.98);
+}
 
- .projectName {
+.projectName {
   margin-top: 10px;
- }
+}
 
- .descriptionDetails {
+.descriptionDetails {
   display: flex;
   flex-direction: column;
   font-size: 1rem;
   gap: 5px;
   margin-bottom: 20px;
- }
-
- .project-links{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-     cursor: pointer;
 }
 
-.project-links a{
-    text-decoration: none;
-    color:black;
-    font-weight:600;
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 
-.project-links i{
-    font-size:1.6rem;
-    color:#000;
+.project-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 
-.project-links a:hover{
-    opacity:.8;
-     color: white;
+.project-links i {
+  font-size: 1.6rem;
+  color: #000;
 }
 
+.project-links a:hover {
+  opacity: 0.8;
+  color: white;
+}
 
 #dash {
   border: none;
   /* margin-bottom: 30px; */
 }
 
- 
 
- 
+/* CONTACT */
+
+.contact{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:25px;
+}
+
+.social-links a{
+    font-size:2rem;
+    color:var(--text-color);
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    transform:translateY(-5px);
+}
+
+/* Floating Telegram */
+
+.telegram-btn{
+    position:fixed;
+    right:20px;
+    bottom:70px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color: #528deb;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    text-decoration:none;
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+    z-index:999;
+    transition: 0.3s;
+}
+
+.telegram-btn:hover{
+    transform:scale(1.1);
+}
+
+#contactsubText {
+  font-size: 1.2rem;
+}
+
+
+
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 2px; 
+    width: 55px;
+    height: 55px;
+    /* background-color: #528deb; */
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+    transition: .3s;
+    z-index: 999;
+    margin-bottom: 5px;
+}
+
+.back-to-top:hover{
+    transform: translateY(-5px);
+}
+
+.back-to-top:active {
+  transform: scale(0.95);
+}
