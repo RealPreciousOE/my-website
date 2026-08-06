@@ -447,84 +447,81 @@ button {
   /* margin-bottom: 30px; */
 }
 
-
 /* CONTACT */
 
-.contact{
-    text-align:center;
-    padding:80px 20px;
+.contact {
+  text-align: center;
+  padding: 80px 20px;
 }
 
-.social-links{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    margin-top:25px;
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
 }
 
-.social-links a{
-    font-size:2rem;
-    color:var(--text-color);
-    transition:0.3s;
+.social-links a {
+  font-size: 2rem;
+  color: var(--text-color);
+  transition: 0.3s;
 }
 
-.social-links a:hover{
-    transform:translateY(-5px);
+.social-links a:hover {
+  transform: translateY(-5px);
 }
 
 /* Floating Telegram */
 
-.telegram-btn{
-    position:fixed;
-    right:20px;
-    bottom:70px;
-    width:60px;
-    height:60px;
-    border-radius:50%;
-    background-color: #528deb;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:2rem;
-    text-decoration:none;
-    box-shadow:0 5px 20px rgba(0,0,0,.25);
-    z-index:999;
-    transition: 0.3s;
+.telegram-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #528deb;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  transition: 0.3s;
 }
 
-.telegram-btn:hover{
-    transform:scale(1.1);
+.telegram-btn:hover {
+  transform: scale(1.1);
 }
 
 #contactsubText {
   font-size: 1.2rem;
 }
 
-
-
-.back-to-top{
-    position: fixed;
-    right: 20px;
-    bottom: 2px; 
-    width: 55px;
-    height: 55px;
-    /* background-color: #528deb; */
-    color: black;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 1.3rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,.25);
-    transition: .3s;
-    z-index: 999;
-    margin-bottom: 5px;
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 2px;
+  width: 55px;
+  height: 55px;
+  /* background-color: #528deb; */
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  z-index: 999;
+  margin-bottom: 5px;
 }
 
-.back-to-top:hover{
-    transform: translateY(-5px);
+.back-to-top:hover {
+  transform: translateY(-5px);
 }
 
 .back-to-top:active {
@@ -570,19 +567,17 @@ button {
     align-items: center;
   }
 
- .certBox {
-  display: flex;
-  align-items: center;
- }
+  .certBox {
+    display: flex;
+    align-items: center;
+  }
 
- .hero_Image {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  width: 100%;
- }
-
-  
+  .hero_Image {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+  }
 
   .timeline {
     padding-left: 20px;
@@ -593,14 +588,13 @@ button {
     margin-top: 10px;
   }
 
- .projectImages {
-  width: 100%;
- }
+  .projectImages {
+    width: 100%;
+  }
 
   .aboutColumn {
     width: 100%;
   }
-
 
   .projectFlex {
     display: flex;
@@ -608,7 +602,7 @@ button {
     flex-direction: column;
   }
 
-  .about_and_skills{
+  .about_and_skills {
     width: 100%;
   }
 
@@ -617,147 +611,144 @@ button {
   }
 
   .navItems {
-  gap: 10px;
-}
+    gap: 10px;
+  }
 
- .nav_Link {
-  min-height: 5vh;
- }
+  .nav_Link {
+    min-height: 5vh;
+  }
 
-nav a {
-  font-size: 0.9rem;
-   display: none;
-}
+  nav a {
+    font-size: 0.9rem;
+    display: none;
+  }
 
-.text {
-  font-size: 1.2rem;
-}
+  .text {
+    font-size: 1.2rem;
+  }
 
-.certDescription {
-  font-size: 1.2rem;
-}
+  .certDescription {
+    font-size: 1.2rem;
+  }
 
-.techText {
-  font-size: 1.2rem;
-}
+  .techText {
+    font-size: 1.2rem;
+  }
 
-.projectDescription {
-  font-size: 1.2rem;
-}
+  .projectDescription {
+    font-size: 1.2rem;
+  }
 
-.contactsubText {
-  font-size: 1.2rem;
-}
+  .contactsubText {
+    font-size: 1.2rem;
+  }
 
-.contact {
-  padding-top: 50px;
-}
+  .contact {
+    padding-top: 50px;
+  }
 
-#img {
-  width: 100%;
-  height: 900px;
-  /* margin-left: 20px; */
-}
+  #img {
+    width: 100%;
+    height: 900px;
+    /* margin-left: 20px; */
+  }
 
-.project_contact {
-  display: flex;
-  justify-content: space-between;
-}
-
+  .project_contact {
+    display: flex;
+    justify-content: space-between;
+  }
 
   * {
     border: 1px solid red;
   }
 }
 
-@media only screen and (min-width: 390px)and (max-width: 600px) {
-  
- .edu_and_cert {
-  width: 100%;
- }
+@media only screen and (min-width: 390px) and (max-width: 600px) {
+  .edu_and_cert {
+    width: 100%;
+  }
 
- .eduColumn {
-  width: 100%;
- }
+  .eduColumn {
+    width: 100%;
+  }
 
- .timeline {
-  padding-left: 20px;
-  margin: 0;
- }
+  .timeline {
+    padding-left: 20px;
+    margin: 0;
+  }
 
- .projectBox {
-  width: 90%;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
- }
+  .projectBox {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
- .projectImages {
-  width: 100%;
- }
+  .projectImages {
+    width: 100%;
+  }
 
- #percorsoTech {
-  width: 340px;
-  height: 340px;
-}
+  #percorsoTech {
+    width: 340px;
+    height: 340px;
+  }
 
- .about_and_skills {
-  width: 100%;
- }
+  .about_and_skills {
+    width: 100%;
+  }
 
- .aboutColumn {
-  width: 100%;
- }
+  .aboutColumn {
+    width: 100%;
+  }
 
- .techStack {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  width: 100%;
- }
+  .techStack {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
 
- .mySkills {
-  margin-top: 20px;
-  width: 100%;
- }
+  .mySkills {
+    margin-top: 20px;
+    width: 100%;
+  }
 
- .skillsColumn {
-  width: 100%;
- }
+  .skillsColumn {
+    width: 100%;
+  }
 
- .uni_college {
-  
- }
+  .uni_college {
+  }
 
- #img {
-  width: 340px;
-  height: 340px;
-  margin-top: 15px;
- }
+  #img {
+    width: 340px;
+    height: 340px;
+    margin-top: 15px;
+  }
 
- #projectBtn {
-  padding: 10px;
-  text-align: center;
- }
+  #projectBtn {
+    padding: 10px;
+    text-align: center;
+  }
 
- .heroBox {
-  display: flex;
-  gap: 5px;
- }
+  .heroBox {
+    display: flex;
+    gap: 5px;
+  }
 
- #title {
-  font-size: 1.2rem;
- }
+  #title {
+    font-size: 1.2rem;
+  }
 
- .text {
-  font-size: 0.9rem;
- }
+  .text {
+    font-size: 0.9rem;
+  }
 
- .space {
-  margin-top: 10px;
- }
+  .space {
+    margin-top: 10px;
+  }
 
- /* .description {
+  /* .description {
   font-size: 1rem;
  }
 
@@ -765,35 +756,32 @@ nav a {
   font-size: 1rem;
  } */
 
- p {
-  font-size: 1rem;
- }
+  p {
+    font-size: 1rem;
+  }
 
- #projectBtn {
-  font-size: 0.9rem;
-  height: fit-content;
-  margin: 0;
- }
+  #projectBtn {
+    font-size: 0.9rem;
+    height: fit-content;
+    margin: 0;
+  }
 
- #contactBtn {
-  font-size: 0.9rem;
- padding: 10px;
- height: fit-content;
- }
+  #contactBtn {
+    font-size: 0.9rem;
+    padding: 10px;
+    height: fit-content;
+  }
 
- .project_contact {
-  margin: 0;
-  margin-top: 10px;
- }
+  .project_contact {
+    margin: 0;
+    margin-top: 10px;
+  }
 
- .navItems {
-  gap: 10px;
-}
+  .navItems {
+    gap: 10px;
+  }
 
-nav a {
-  font-size: 0.9rem;
-}
-
- 
-
+  nav a {
+    font-size: 0.9rem;
+  }
 }
