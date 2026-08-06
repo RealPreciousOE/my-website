@@ -96,6 +96,12 @@ button {
   font-weight: bold;
 }
 
+.greet:hover {
+  background-color: #528deb;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
 #userName {
   font-size: 2.4rem;
   font-weight: bold;
@@ -373,6 +379,7 @@ button {
  .projectImages {
    width: 250px;
    height: 250px;
+    cursor: pointer;
  }
 
  .projectFlex {
@@ -385,7 +392,6 @@ button {
    padding: 10px;
    width: fit-content;
    height: auto;
-   cursor: pointer;
    margin-top: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
     border-radius: 5px;
@@ -394,8 +400,54 @@ button {
  .projectBox:hover {
    background-color: #528deb;
    transition: background-color 0.5s ease;
+   color: white;
  }
 
  .projectBox:active {
    transform: scale(0.98);
  }
+
+ .projectName {
+  margin-top: 10px;
+ }
+
+ .descriptionDetails {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  gap: 5px;
+  margin-bottom: 20px;
+ }
+
+ .project-links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+     cursor: pointer;
+}
+
+.project-links a{
+    text-decoration: none;
+    color:black;
+    font-weight:600;
+}
+
+.project-links i{
+    font-size:1.6rem;
+    color:#000;
+}
+
+.project-links a:hover{
+    opacity:.8;
+     color: white;
+}
+
+
+#dash {
+  border: none;
+  /* margin-bottom: 30px; */
+}
+
+ 
+
+ 
