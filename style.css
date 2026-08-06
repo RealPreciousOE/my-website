@@ -528,6 +528,15 @@ button {
   transform: scale(0.95);
 }
 
+/* FOOTER */
+
+ #lastText {
+  text-align: center;
+  padding: 20px;
+  background-color: #1d3c6e;
+  color: white;
+ }
+
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 789px) {
