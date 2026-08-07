@@ -24,7 +24,7 @@
   })
 
   sr.reveal(".ProjectBox", {
-   interval: 200
+   delay: 200
   })
 
   sr.reveal(".contact")
