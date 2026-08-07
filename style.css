@@ -64,13 +64,16 @@ nav a:active {
   display: none !important;
 }
 
+.dark_mode {
+  color: white !important;
+}
+
 .navButtons {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-left: auto;
 }
-
 
 /* NAVBAR ITEMS ENDS */
 
@@ -600,7 +603,6 @@ button {
   margin-top: 10px;
 }
 
-
 /* p {
   font-size: 1rem;
 } */
@@ -629,7 +631,6 @@ button {
 nav a {
   font-size: 0.9rem;
 }
-
 
 /* MEDIA QUERY */
 
@@ -746,7 +747,28 @@ nav a {
   }
 
   .navItems {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: -500px;
+
+    width: 100px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 25px;
+    padding: 90px 30px;
+    background-color: #1d3c6e;
+
+    transition: right 0.4s ease;
+    z-index: 999;
+  }
+
+  .navItems.active {
+    right: 0;
   }
 
   .menu {
@@ -756,6 +778,17 @@ nav a {
   .nav_Link {
     padding: 10px;
     min-height: 5vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .navButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }
 
   .text {
@@ -774,25 +807,27 @@ nav a {
     font-size: 1.2rem;
   }
 
+  .navItems.active {
+    display: flex;
+    flex-direction: column;
 
- .navItems.active {
-  display: flex;
-  flex-direction: column;
-}
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
 
+    padding: 20px;
+    gap: 20px;
 
-
-
+    z-index: 1000;
+  }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 600px) {
-
-
   .navItems.active {
-  display: flex;
-  flex-direction: column;
-}
-
+    display: flex;
+    flex-direction: column;
+  }
 
   .heroBox {
     display: flex;
@@ -926,8 +961,6 @@ nav a {
     width: 100%;
     justify-content: center;
   }
-
-
 }
 
 /* Iphone12Pro */
@@ -975,8 +1008,6 @@ nav a {
   .nav_Link {
     min-height: 5vh;
   }
-
- 
 }
 
 @media only screen and (min-width: 790px) and (max-width: 1024px) {
