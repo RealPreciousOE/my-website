@@ -21,7 +21,6 @@ html {
   justify-content: center;
   background-color: #1d3c6e;
   padding: 20px;
-  border-bottom: 1px solid white;
   width: 100%;
   min-height: 10vh;
   position: fixed;
@@ -66,6 +65,8 @@ nav a:active {
 
 .dark_mode {
   color: white !important;
+  font-size: 1.5rem !important;
+  cursor: pointer;
 }
 
 .navButtons {
@@ -94,8 +95,6 @@ button {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #1d3c6e;
-  color: white;
   margin-top: 75px;
 }
 
@@ -116,10 +115,14 @@ button {
 .greet {
   padding: 10px;
   color: black;
-  background-color: white;
+  border: 1px solid #528deb;
   width: fit-content;
   border-radius: 10px;
   font-weight: bold;
+}
+
+.active .greet {
+  color: white;
 }
 
 .greet:hover {
@@ -142,7 +145,7 @@ button {
 }
 
 .intro {
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
 }
 
 .project_contact {
@@ -151,53 +154,30 @@ button {
   margin-top: 20px;
 }
 
-#projectBtn {
-  padding: 15px;
-  border-radius: 5px;
-  width: 40%;
+.btn {
+  padding: 20px !important;
   border: 1px solid #528deb;
-  background-color: #528deb;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: background-color 0.5s ease;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-  text-decoration: none;
-  text-align: center;
-}
-
-#projectBtn:active {
-  transform: scale(0.95);
-}
-
-#projectBtn:hover {
-  opacity: 0.9;
-}
-
-#contactBtn {
-  padding: 15px;
   border-radius: 5px;
-  width: 40%;
-  border: 1px solid #528deb;
-  background-color: #1d3c6e;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  transition: background-color 0.5s ease;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-  text-decoration: none;
+  width: 100%;
   text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem !important;
+  color: black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
 }
 
-#contactBtn:active {
-  transform: scale(0.95);
+.active .btn {
+  color: white;
 }
 
-#contactBtn:hover {
-  opacity: 0.9;
+.btn:hover {
   background-color: #528deb;
+  transition: background-color 0.4s ease;
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
 
 .heroText {
@@ -242,7 +222,7 @@ button {
 }
 
 .text {
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
 }
 
 /* MY SKILLS */
@@ -259,7 +239,7 @@ button {
   gap: 10px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #dedede;
+  border: 1px solid #528deb;
   width: fit-content;
   font-size: 1.2rem;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
@@ -468,6 +448,14 @@ button {
   color: white;
 }
 
+.active .project-links a {
+  color: white;
+}
+
+.active .project-links i {
+  color: white;
+}
+
 #dash {
   border: none;
   /* margin-bottom: 30px; */
@@ -532,7 +520,6 @@ button {
   bottom: 2px;
   width: 55px;
   height: 55px;
-  /* background-color: #528deb; */
   color: black;
   border-radius: 50%;
   display: flex;
@@ -544,6 +531,10 @@ button {
   transition: 0.3s;
   z-index: 999;
   margin-bottom: 5px;
+}
+
+.active .back-to-top {
+  color: white;
 }
 
 .back-to-top:hover {
@@ -632,6 +623,14 @@ nav a {
   font-size: 0.9rem;
 }
 
+.active {
+  background-color: black;
+  color: white;
+}
+
+
+
+
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 601px) and (max-width: 789px) {
@@ -647,6 +646,10 @@ nav a {
     padding-right: 10px;
   }
 
+  .greet {
+    border: 1px solid #528deb;
+  }
+
   .project_contact {
     display: flex;
     justify-content: space-around;
@@ -655,13 +658,17 @@ nav a {
     margin-top: 8px;
   }
 
-  #projectBtn {
+  /* #projectBtn {
     padding: 15px;
-  }
+    background-color: white;
+    color: black;
+  } */
 
-  #contactBtn {
+  /* #contactBtn {
     padding: 15px;
-  }
+    background-color: white;
+    color: black;
+  } */
 
   #userName {
     margin-top: 5px;
@@ -748,27 +755,22 @@ nav a {
 
   .navItems {
     position: fixed;
-    top: 0;
-    right: -500px;
-
-    width: 100px;
-    height: 100vh;
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    gap: 25px;
+    gap: 20px;
     padding: 90px 30px;
     background-color: #1d3c6e;
-
-    transition: right 0.4s ease;
+    transition: top 0.4s ease;
     z-index: 999;
   }
 
   .navItems.active {
-    right: 0;
+    top: 0;
   }
 
   .menu {
@@ -776,8 +778,10 @@ nav a {
   }
 
   .nav_Link {
-    padding: 10px;
-    min-height: 5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
     display: flex;
     justify-content: space-between;
@@ -824,11 +828,6 @@ nav a {
 }
 
 @media only screen and (min-width: 390px) and (max-width: 600px) {
-  .navItems.active {
-    display: flex;
-    flex-direction: column;
-  }
-
   .heroBox {
     display: flex;
     flex-direction: column;
@@ -839,6 +838,8 @@ nav a {
   #projectBtn {
     padding: 15px;
     font-size: 0.9rem;
+    background-color: white;
+    color: black;
   }
 
   #userName {
@@ -848,6 +849,8 @@ nav a {
   #contactBtn {
     padding: 15px;
     font-size: 0.9rem;
+    background-color: white;
+    color: black;
   }
 
   .about_and_skills {
@@ -894,7 +897,29 @@ nav a {
   }
 
   .navItems {
-    display: none;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 30px;
+    background-color: #1d3c6e;
+
+    transition: top 0.4s ease;
+    z-index: 999;
+  }
+
+  .navItems.active {
+    top: 0;
+  }
+
+  .menu {
+    display: inline-block !important;
+    z-index: 1000;
   }
 
   .nav_Link {
@@ -961,6 +986,11 @@ nav a {
     width: 100%;
     justify-content: center;
   }
+
+ .active .btn {
+  background-color: black !important;
+  color: white !important;
+ }
 }
 
 /* Iphone12Pro */
@@ -1019,8 +1049,8 @@ nav a {
   }
 
   .projectFlex {
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    display: flex;
+    flex-direction: column;
   }
 
   .aboutColumn {
