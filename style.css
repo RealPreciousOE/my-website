@@ -173,6 +173,7 @@ button {
 
 .active .btn {
   color: white;
+  background-color: #1e1e1e !important;
 }
 
 .btn:hover {
@@ -398,10 +399,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
-
 }
-
-
 
 .projectBox {
   padding: 10px;
@@ -616,7 +614,7 @@ button {
 }
 
 .active {
-  background-color: black;
+  background-color: #1e1e1e;
   color: white;
 }
 
@@ -727,15 +725,15 @@ section {
     flex-direction: column;
   }
 
- .projectBox {
-  width: 100%;
- }
+  .projectBox {
+    width: 100%;
+  }
 
- .projectImages {
-  width: 100%;
-  height: 550px;
-  object-fit: cover;
- }
+  .projectImages {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
 
   .contact {
     padding: 50px;
@@ -807,7 +805,6 @@ section {
   .btn {
     width: 350px;
   }
-
 }
 
 @media only screen and (min-width: 390px) and (max-width: 600px) {
@@ -869,8 +866,6 @@ section {
   }
 
   .projectFlex {
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
@@ -995,7 +990,7 @@ section {
   }
 
   .active .btn {
-    background-color: black !important;
+    background-color: #1e1e1e !important;
     color: white !important;
   }
 }
@@ -1042,4 +1037,3 @@ section {
     font-size: 0.9rem;
   }
 }
-
