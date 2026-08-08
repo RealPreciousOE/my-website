@@ -55,18 +55,18 @@ nav a:active {
 }
 
 .menu {
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  font-size: 1.8rem !important;
-  color: white;
   display: none !important;
 }
 
 .dark_mode {
-  color: white !important;
-  font-size: 1.5rem !important;
-  cursor: pointer;
+   font-weight: bold;
+   color: white;
+   font-size: 1.8rem !important;
+   cursor: pointer;
+}
+
+.dark_mode:active {
+  transform: scale(0.98);
 }
 
 .navButtons {
@@ -563,8 +563,6 @@ button {
   width: 100%;
 }
 
-.uni_college {
-}
 
 #img {
   width: 340px;
@@ -657,18 +655,6 @@ nav a {
     gap: 10px;
     margin-top: 8px;
   }
-
-  /* #projectBtn {
-    padding: 15px;
-    background-color: white;
-    color: black;
-  } */
-
-  /* #contactBtn {
-    padding: 15px;
-    background-color: white;
-    color: black;
-  } */
 
   #userName {
     margin-top: 5px;
@@ -778,6 +764,11 @@ nav a {
   .menu {
     display: inline-block !important;
     z-index: 2000;
+     font-weight: bold;
+   color: white;
+   font-size: 1.8rem !important;
+   cursor: pointer;
+  
   }
 
   .nav_Link {
@@ -814,28 +805,14 @@ nav a {
     font-size: 1.2rem;
   }
 
-  .navItems.active {
-    /* display: flex;
-    flex-direction: column;
-
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-
-    padding: 20px;
-    gap: 20px;
-
-    z-index: 1500; */
-    top: 0;
-  }
+  
 }
 
 @media only screen and (min-width: 390px) and (max-width: 600px) {
   .heroBox {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 85px;
     padding: 10px;
   }
 
@@ -925,6 +902,11 @@ nav a {
   .menu {
     display: inline-block !important;
     z-index: 1000;
+     font-weight: bold;
+   color: white;
+   font-size: 1.8rem !important;
+   cursor: pointer;
+ 
   }
 
   .nav_Link {
@@ -937,6 +919,7 @@ nav a {
     justify-content: space-between;
     align-items: center;
     z-index: 999;
+    height: 5vh !important;
   }
 
   .heroText {
@@ -1046,10 +1029,6 @@ nav a {
   .techText {
     font-size: 0.9rem;
   }
-
-  .nav_Link {
-    min-height: 5vh;
-  }
 }
 
 @media only screen and (min-width: 790px) and (max-width: 1024px) {
@@ -1151,3 +1130,6 @@ nav a {
     min-height: 6vh;
   }
 }
+
+
+
