@@ -10,6 +10,14 @@ const sr = ScrollReveal({
 sr.reveal(".heroBox");
 
 sr.reveal("#img", {
+  origin: "bottom",
+  distance: "80px",
+  duration: 1000,
+  interval: 200,
+  reset: false,
+});
+
+sr.reveal(".text", {
   origin: "left",
   distance: "80px",
   duration: 1000,
@@ -17,11 +25,23 @@ sr.reveal("#img", {
   reset: false,
 });
 
+sr.reveal(".project_contact")
+
+sr.reveal("#percorsoTech")
+
 sr.reveal(".aboutColumn");
 
 sr.reveal(".skillsColumn");
 
-sr.reveal(".eduColumn");
+sr.reveal(".eduColumn", {
+   origin: "left",
+  distance: "80px",
+  duration: 1000,
+  interval: 200,
+  reset: false,
+});
+
+sr.reveal
 
 sr.reveal(".certColumn", {
   delay: 300,
@@ -36,7 +56,7 @@ sr.reveal(".techSkills", {
 });
 
 sr.reveal(".projectBox", {
-  origin: "left",
+  origin: "bottom",
   distance: "80px",
   duration: 1000,
   interval: 200,
@@ -87,13 +107,6 @@ sr.reveal(".mySkills", {
   reset: false,
 });
 
-sr.reveal(".footer", {
-  origin: "left",
-  distance: "80px",
-  duration: 1000,
-  interval: 200,
-  reset: false,
-});
 
 const navItems = document.getElementsByClassName("navItems")[0];
 const menu = document.getElementsByClassName("menu")[0];
