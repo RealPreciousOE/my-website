@@ -18,7 +18,7 @@ html {
 .nav_Link {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #1d3c6e;
   padding: 20px;
   width: 100%;
@@ -27,12 +27,14 @@ html {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 
 .navItems {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  position: absolute;
+  right: 80px;
   gap: 30px;
 }
 
@@ -59,10 +61,10 @@ nav a:active {
 }
 
 .dark_mode {
-   font-weight: bold;
-   color: white;
-   font-size: 1.8rem !important;
-   cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-size: 1.8rem !important;
+  cursor: pointer;
 }
 
 .dark_mode:active {
@@ -74,6 +76,8 @@ nav a:active {
   align-items: center;
   gap: 15px;
   margin-left: auto;
+  margin: 0;
+  width: fit-content;
 }
 
 /* NAVBAR ITEMS ENDS */
@@ -105,7 +109,7 @@ button {
   border-radius: 5%;
   padding: 10px;
   border: 1px solid #528deb;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 #img:hover {
@@ -164,7 +168,7 @@ button {
   text-decoration: none;
   font-size: 1.1rem !important;
   color: black;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .active .btn {
@@ -186,12 +190,12 @@ button {
   flex-direction: column;
   gap: 10px;
 }
-
 /* HERO SECTION DONE */
 
 /* ABOUT ME */
 .about_and_skills {
-  padding: 20px 20px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aboutMe {
@@ -205,7 +209,7 @@ button {
   color: #528deb;
   font-weight: bold;
   border-radius: 50%;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20) !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2) !important;
 }
 
 .aboutMe_skillsText {
@@ -243,7 +247,7 @@ button {
   border: 1px solid #528deb;
   width: fit-content;
   font-size: 1.2rem;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .techSkills:hover {
@@ -275,7 +279,8 @@ button {
 /* Education */
 
 .edu_and_cert {
-  padding: 20px 20px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -325,7 +330,7 @@ button {
 .blue {
   color: #528deb;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .description {
@@ -350,7 +355,7 @@ button {
 #percorsoTech {
   width: 350px;
   height: 350px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -379,8 +384,8 @@ button {
 /* PROJECTS!!! */
 
 .prjectText {
-  margin-top: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .projectImages {
@@ -393,14 +398,16 @@ button {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+
 }
+
+
 
 .projectBox {
   padding: 10px;
   width: fit-content;
-  height: auto;
-  margin-top: 20px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
+  height: fit-content;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
@@ -459,7 +466,6 @@ button {
 
 #dash {
   border: none;
-  /* margin-bottom: 30px; */
 }
 
 /* CONTACT */
@@ -502,7 +508,7 @@ button {
   align-items: center;
   font-size: 2rem;
   text-decoration: none;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 999;
   transition: 0.3s;
 }
@@ -556,14 +562,13 @@ button {
 }
 
 .mySkills {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   width: 100%;
 }
 
 .skillsColumn {
   width: 100%;
 }
-
 
 #img {
   width: 340px;
@@ -593,10 +598,6 @@ button {
   margin-top: 10px;
 }
 
-/* p {
-  font-size: 1rem;
-} */
-
 #projectBtn {
   font-size: 0.9rem;
   height: fit-content;
@@ -614,35 +615,25 @@ button {
   margin-top: 10px;
 }
 
-.navItems {
-  gap: 10px;
-}
-
-nav a {
-  font-size: 0.9rem;
-}
-
 .active {
   background-color: black;
   color: white;
 }
 
-
-
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 601px) and (max-width: 789px) {
-  /* * {
-      border: 1px solid red;
-    } */
-
   .heroBox {
     display: flex;
     flex-direction: column;
-    margin-top: 79px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 110px;
   }
 
   .greet {
@@ -672,8 +663,8 @@ nav a {
   }
 
   #img {
-    width: 100%;
-    height: 900px;
+    width: 490px;
+    height: 490px;
     object-fit: cover;
   }
 
@@ -730,11 +721,21 @@ nav a {
   }
 
   .projectFlex {
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    flex-direction: column;
   }
+
+ .projectBox {
+  width: 100%;
+ }
+
+ .projectImages {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+ }
 
   .contact {
     padding: 50px;
@@ -746,15 +747,13 @@ nav a {
     left: 0;
     right: 0;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
-
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: #1d3c6e;
-    transition: top .4s ease;
+    transition: top 0.4s ease;
     z-index: 1000;
   }
 
@@ -765,11 +764,10 @@ nav a {
   .menu {
     display: inline-block !important;
     z-index: 2000;
-     font-weight: bold;
-   color: white;
-   font-size: 1.8rem !important;
-   cursor: pointer;
-  
+    font-weight: bold;
+    color: white;
+    font-size: 1.8rem !important;
+    cursor: pointer;
   }
 
   .nav_Link {
@@ -777,11 +775,11 @@ nav a {
     top: 0;
     left: 0;
     right: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 999;
+    padding: 10px;
   }
 
   .navButtons {
@@ -806,14 +804,16 @@ nav a {
     font-size: 1.2rem;
   }
 
-  
+  .btn {
+    width: 350px;
+  }
+
 }
 
 @media only screen and (min-width: 390px) and (max-width: 600px) {
   .heroBox {
     display: flex;
     flex-direction: column;
-    margin-top: 85px;
     padding: 10px;
   }
 
@@ -825,7 +825,8 @@ nav a {
   }
 
   #userName {
-    margin-top: 5px;
+    margin: 0;
+    margin-top: 4px;
   }
 
   #contactBtn {
@@ -868,10 +869,22 @@ nav a {
   }
 
   .projectFlex {
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .projectBox {
+    width: 100%;
+  }
+
+  .projectImages {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
   }
 
   .contact {
@@ -884,30 +897,27 @@ nav a {
     left: 0;
     right: 0;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
-
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: #1d3c6e;
-    transition: top .4s ease;
+    transition: top 0.4s ease;
     z-index: 1000;
   }
 
   .navItems.active {
-   top: 0;
+    top: 0;
   }
 
   .menu {
     display: inline-block !important;
     z-index: 1000;
-     font-weight: bold;
-   color: white;
-   font-size: 1.8rem !important;
-   cursor: pointer;
- 
+    font-weight: bold;
+    color: white;
+    font-size: 1.8rem !important;
+    cursor: pointer;
   }
 
   .nav_Link {
@@ -921,6 +931,7 @@ nav a {
     align-items: center;
     z-index: 999;
     height: 5vh !important;
+    padding: 10px;
   }
 
   .heroText {
@@ -940,7 +951,7 @@ nav a {
   }
 
   .intro {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
 
   .text {
@@ -983,10 +994,10 @@ nav a {
     justify-content: center;
   }
 
- .active .btn {
-  background-color: black !important;
-  color: white !important;
- }
+  .active .btn {
+    background-color: black !important;
+    color: white !important;
+  }
 }
 
 /* Iphone12Pro */
@@ -1031,106 +1042,4 @@ nav a {
     font-size: 0.9rem;
   }
 }
-
-@media only screen and (min-width: 790px) and (max-width: 1024px) {
-  .heroBox {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 69px;
-  }
-
-  .projectFlex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .aboutColumn {
-    width: 100%;
-  }
-
-  .about_and_skills {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .edu_and_cert {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .eduColumn {
-    width: 100%;
-  }
-
-  .contact {
-    padding: 50px;
-  }
-
-  .certBox {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  #img {
-    width: 500px;
-    height: 500px;
-  }
-
-  #percorsoTech {
-    width: 500px;
-    height: 500px;
-  }
-
-  .hero_Image {
-    display: flex;
-    justify-content: center;
-  }
-
-  .project_contact {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #projectBtn {
-    padding: 20px;
-  }
-
-  #contactBtn {
-    padding: 20px;
-  }
-
-  .text {
-    font-size: 1.2rem;
-  }
-
-  .timeline {
-    padding-left: 20px;
-    margin-left: 10px;
-  }
-
-  .edu_and_cert {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .projectDescription {
-    font-size: 1rem;
-  }
-
-  .nav_Link {
-    padding: 15px;
-  }
-
-  .nav a {
-    font-size: 1rem;
-  }
-
-  .nav_Link {
-    min-height: 6vh;
-  }
-}
-
-
 
