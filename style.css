@@ -461,6 +461,7 @@ button {
 .link {
   display: flex;
   align-items: center;
+  width: fit-content;
   gap: 5px;
 }
 
