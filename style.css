@@ -105,6 +105,7 @@ button {
   border-radius: 5%;
   padding: 10px;
   border: 1px solid #528deb;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
 }
 
 #img:hover {
@@ -163,7 +164,7 @@ button {
   text-decoration: none;
   font-size: 1.1rem !important;
   color: black;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
 }
 
 .active .btn {
@@ -204,7 +205,7 @@ button {
   color: #528deb;
   font-weight: bold;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20) !important;
 }
 
 .aboutMe_skillsText {
@@ -399,7 +400,7 @@ button {
   width: fit-content;
   height: auto;
   margin-top: 20px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.20);
   border-radius: 5px;
 }
 
