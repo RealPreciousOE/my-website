@@ -149,6 +149,10 @@ button {
   color: #528deb;
 }
 
+#divde {
+  font-size: 1.5rem;
+}
+
 .intro {
   font-size: 1.2rem !important;
 }
@@ -451,6 +455,16 @@ button {
 
 .project-links a:hover {
   opacity: 0.8;
+  color: white;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.active .link {
   color: white;
 }
 
