@@ -23,8 +23,8 @@ if (userTheme === "dark") {
 const sr = ScrollReveal({
   origin: "bottom",
   distance: "60px",
-  duration: 900,
-  interval: 180,
+  duration: 1000,
+   interval: 190,
   reset: false,
 });
 
@@ -34,7 +34,7 @@ sr.reveal("#img", {
   origin: "bottom",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+   interval: 190,
   reset: false,
 });
 
@@ -42,7 +42,7 @@ sr.reveal(".text", {
   origin: "left",
   distance: "80px",
   duration: 1000,
- interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -64,7 +64,7 @@ sr.reveal(".techSkills", {
   origin: "left",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+   interval: 190,
   reset: false,
 });
 
@@ -72,7 +72,7 @@ sr.reveal(".projectBox", {
   origin: "bottom",
   distance: "80px",
   duration: 1000,
- interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -80,7 +80,7 @@ sr.reveal(".projectDescription", {
   origin: "left",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -88,7 +88,7 @@ sr.reveal(".description", {
   origin: "left",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -98,7 +98,7 @@ sr.reveal(".greet", {
   origin: "left",
   distance: "80px",
   duration: 1000,
- interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -106,7 +106,7 @@ sr.reveal(".intro", {
   origin: "left",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -114,7 +114,7 @@ sr.reveal(".content", {
   origin: "left",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+   interval: 190,
   reset: false,
 });
 
@@ -124,7 +124,7 @@ sr.reveal(".certBox", {
   origin: "left",
   distance: "80px",
   duration: 1000,
- interval: 180,
+  interval: 190,
   reset: false,
 });
 
@@ -132,7 +132,7 @@ sr.reveal(".mySkills", {
   origin: "left",
   distance: "80px",
   duration: 1000,
-  interval: 180,
+  interval: 190,
   reset: false,
 });
 
