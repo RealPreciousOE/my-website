@@ -165,6 +165,7 @@ button {
 
 .btn {
   padding: 20px !important;
+  border-radius: 5px;
   border: 1px solid #528deb;
   border-radius: 5px;
   width: 100%;
@@ -173,7 +174,59 @@ button {
   font-size: 1.1rem !important;
   color: black;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  border: 1px solid transparent;
+  border-top-color: #528deb;
+  border-right-color: #528deb;
+  animation: borderMove 3s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes borderMove {
+    0% {
+        border-top-color: #528deb;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    25% {
+        border-top-color: transparent;
+        border-right-color: #528deb;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    50% {
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #528deb;
+        border-left-color: transparent;
+    }
+
+    75% {
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: #528deb;
+    }
+
+    100% {
+        border-top-color: #528deb;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+}
+
+
 
 .active .btn {
   color: white;
@@ -185,6 +238,7 @@ button {
   transition: background-color 0.4s ease;
   color: white;
 }
+
 
 .btn:active {
   transform: scale(0.98);
@@ -829,24 +883,24 @@ section {
     padding: 10px;
   }
 
-  #projectBtn {
+  /* #projectBtn {
     padding: 15px;
     font-size: 0.9rem;
     background-color: white;
     color: black;
-  }
+  } */
 
   #userName {
     margin: 0;
     margin-top: 4px;
   }
 
-  #contactBtn {
+  /* #contactBtn {
     padding: 15px;
     font-size: 0.9rem;
     background-color: white;
     color: black;
-  }
+  } */
 
   .about_and_skills {
     display: flex;

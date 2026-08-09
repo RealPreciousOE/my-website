@@ -68,6 +68,14 @@ sr.reveal(".techSkills", {
   reset: false,
 });
 
+sr.reveal (".social-links", {
+  origin: "left",
+  distance: "80px",
+  duration: 1000,
+   interval: 190,
+  reset: false,
+})
+
 sr.reveal(".projectBox", {
   origin: "bottom",
   distance: "80px",
@@ -93,6 +101,7 @@ sr.reveal(".description", {
 });
 
 sr.reveal(".certDescription");
+
 
 sr.reveal(".greet", {
   origin: "left",
