@@ -452,16 +452,16 @@ button {
 /* PROJECTS!!! */
 
 .projectText {
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
 
 #underline {
-  text-decoration: underline;
-  text-decoration-color: #528deb;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 6px;
+  text-decoration: underline !important;
+  text-decoration-color: #528deb !important;
+  text-decoration-thickness: 3px !important;
+  text-underline-offset: 6px !important;
 }
 
 .projectImages {
@@ -904,24 +904,10 @@ section {
     padding: 10px;
   }
 
-  /* #projectBtn {
-    padding: 15px;
-    font-size: 0.9rem;
-    background-color: white;
-    color: black;
-  } */
-
   #userName {
     margin: 0;
     margin-top: 4px;
   }
-
-  /* #contactBtn {
-    padding: 15px;
-    font-size: 0.9rem;
-    background-color: white;
-    color: black;
-  } */
 
   .about_and_skills {
     display: flex;
@@ -1127,3 +1113,5 @@ section {
     font-size: 0.9rem;
   }
 }
+
+
